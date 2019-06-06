@@ -1,0 +1,52 @@
+$base-size: 16px;
+
+$gray-100: #f8f9fa;
+$gray-600: #868e96;
+$gray-800: #343a40;
+
+$red: #dc3545; // EC0045
+$yellow: #ffc107;
+$green: #006600; // changed value
+$cyan: #17a2b8;
+
+$brand-primary: #3b9fe2;
+$color-black: #333333;
+$color-white: #ffffff;
+$color-gray: #d9d5d0;
+$color-gray-dark: #5c6b7e;
+$color-gray-darker: #474C59;
+$color-gray-light: #f0f0f1;
+$color-gray-lighter: #e6e6e8;
+
+$color-red: $red;
+$color-yellow: $yellow;
+$color-green: $green;
+$color-cyan: $cyan;
+
+$color-alert-red: $red;
+$color-alert-yellow: $yellow;
+$color-alert-green: $green;
+$color-alert-blue: $cyan;
+
+// overwrite bootstrap
+$theme-colors: (primary: $brand-primary,
+secondary: $gray-600,
+success: $green,
+info: $cyan,
+warning: $yellow,
+danger: $red,
+light: $gray-100,
+dark: $gray-800);
+
+// Breakpoints
+$small: 600px;
+$phone-upper-boundary: $small;
+
+$medium: 900px;
+$tablet-portrait-upper-boundary: $medium;
+
+$large: 1200px;
+$tablet-landscape-upper-boundary: $large;
+
+$xlarge: 1800px;
+$desktop-upper-boundary: $xlarge;

@@ -1,0 +1,19 @@
+@import './variables';
+@import './mixins/mixins';
+@import './helpers';
+@import './fonts';
+@import './icons';
+@import './components/components';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  font-family: 'lato', sans-serif;
+  height: 100%;
+}
+
+body {
+  font-size: $base-size;
+  letter-spacing: .1rem;
+  overflow-x: hidden;
+}
